@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import * as Tone from 'tone';
 
 function App() {
+  const playSynth = () => {
+    const synth = new Tone.Synth().toDestination();
+    // Trigger a middle 'C' for half a second
+    synth.triggerAttackRelease("C4", "0.5");
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <h1>Online Sequencer</h1>
+        <button onClick={playSynth}>Play Note</button>
+      </div>
   );
 }
 
