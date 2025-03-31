@@ -5,7 +5,7 @@ import Dropdown from './Dropdown';
 const Header = () => {
     return (
         <div style={{
-            display: "flex",
+            display: "flex", // Make the children align horizontally
             alignItems: "center",
             justifyContent: "space-between",
             padding: "10px",
