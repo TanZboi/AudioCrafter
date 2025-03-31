@@ -1,9 +1,8 @@
 # AudioCrafter
-=======
 
-## A simple yet fully functional DAW running in your browser.
+# A simple yet fully functional DAW running in your browser.
 
-### Features:
+## Features:
 Fully functional, infinite dynamic length timeline
 
 Seperate timelines for each instrument track
@@ -13,7 +12,7 @@ Timekeeping clock system with accurate bpm control
 Basic tone Synthesizer
 
 
-### Will soon contain (hopefully):
+## Will soon contain (hopefully):
 
 Wavetable Synthesizer
 
