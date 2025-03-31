@@ -1,7 +1,32 @@
-<<<<<<< HEAD
 # AudioCrafter
 =======
-# Getting Started with Create React App
+
+## A simple yet fully functional DAW running in your browser.
+
+### Features:
+Fully functional, infinite dynamic length timeline
+
+Seperate timelines for each instrument track
+
+Timekeeping clock system with accurate bpm control
+
+Basic tone Synthesizer
+
+
+### Will soon contain (hopefully):
+
+Wavetable Synthesizer
+
+Piano, drum, string, percussion instrument samplesets
+
+Automation
+
+Timeline where tracks can be arranged, instead of tracks being song length
+
+Proper knob style sliders for synth controls
+
+![img.png](img.png)
+# Getting Started with AudioCrafter
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
